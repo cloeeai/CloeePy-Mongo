@@ -15,7 +15,7 @@ class CloeePyMongo(object):
         # set pluginNamespace
         self._namespace = None
         if "pluginNamespace" in info:
-            self.namespace = info["pluginNamespace"]
+            self._namespace = info["pluginNamespace"]
             del info["pluginNamespace"]
         else:
             self._namespace = "mongo"
