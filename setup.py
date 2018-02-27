@@ -12,7 +12,7 @@ setup(
     long_description=open('README.md').read(),
     install_requires=[
         "pymongo>=3.0,<4",
-        "CloeePy>=0.0,<2",
+        "CloeePy>=0.0",
      ],
      url = "https://github.com/cloeeai/CloeePy-Mongo",
      author = "Scott Crespo",
