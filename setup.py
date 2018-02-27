@@ -1,7 +1,7 @@
 from distutils.core import setup
 
 setup(
-    name='CloeePy',
+    name='CloeePy-Mongo',
     version='0.0.0-rc1',
     packages=['cloeepy_mongo',],
     package_data = {
