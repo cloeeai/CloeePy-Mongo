@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name='CloeePy-Mongo',
-    version='0.0.0-rc2',
+    version='0.0.0',
     packages=['cloeepy_mongo',],
     package_data = {
         'cloeepy': ['data/*.yml'],
