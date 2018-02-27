@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name='CloeePy-Mongo',
-    version='0.0.0-rc1',
+    version='0.0.0-rc2',
     packages=['cloeepy_mongo',],
     package_data = {
         'cloeepy': ['data/*.yml'],
@@ -12,7 +12,7 @@ setup(
     long_description=open('README.md').read(),
     install_requires=[
         "pymongo>=3.0,<4",
-        "CloeePy>=0.0",
+        "CloeePy>=0",
      ],
      url = "https://github.com/cloeeai/CloeePy-Mongo",
      author = "Scott Crespo",
